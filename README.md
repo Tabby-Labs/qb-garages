@@ -9,9 +9,18 @@ for some beautiful snippet - https://github.com/bashenga
 # Depedency
 * [qb-radialmenu](https://github.com/MahmoodHensem/qb-radialmenu) --*/ qb-radialmenu Edited version by me
 
+* [qb-menu](https://github.com/qbcore-framework/qb-menu) --*/ qb-menu
+
 # Features
 Inpired Garage
 Store and take out vehicle using radialmenu
+
+# Preview
+To add new garage location, make sure you know how to PolyZone
+
+https://medal.tv/games/gta-v/clips/74582084/d1337aKeDt7k?invite=cr-MSxyT08sMjM4MDQxNDUs - Store & Take out
+
+https://medal.tv/games/gta-v/clips/74581800/d13370D0unzV?invite=cr-MSw2WDgsMjM4MDQxNDUs - Depots
 
 # License
 
