@@ -16,7 +16,7 @@ Inpired Garage
 Store and take out vehicle using radialmenu
 
 # Preview
-To add new garage location, make sure you know how to PolyZone
+To add new garage location, make sure you know how to PolyZone to make your work easier
 
 https://medal.tv/games/gta-v/clips/74582084/d1337aKeDt7k?invite=cr-MSxyT08sMjM4MDQxNDUs - Store & Take out
 
