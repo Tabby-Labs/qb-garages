@@ -1,3 +1,5 @@
+if got any issues, can DM me on Discord JB The Mr.Mood#7475
+
 # qb-garages
 Garage System Used With QB-Core and work with qb-radialmenu 🚗
 
