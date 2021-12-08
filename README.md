@@ -11,6 +11,8 @@ for some beautiful snippet - https://github.com/bashenga
 # Depedency
 * [qb-radialmenu](https://github.com/MahmoodHensem/qb-radialmenu) --*/ qb-radialmenu Edited version by me
 
+* [polyzonehelper](https://github.com/bashenga/polyzonehelper) --*/ To trigger the radialmenu when inside the zone
+
 * [qb-menu](https://github.com/qbcore-framework/qb-menu) --*/ qb-menu
 
 # Features
