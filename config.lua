@@ -182,7 +182,7 @@ Garages = {
         showBlip = true
     },
     ["pillboxgarage"] = {
-        label = "Garage (0)",
+        label = "Garage (O)",
         takeVehicle = vector3(215.9499, -809.698, 30.731),
         spawnPoint = vector4(217.5121, -799.3945, 30.3637, 68.6201),
         putVehicle = vector3(218.0894, -781.370, 30.389),
@@ -204,9 +204,9 @@ Garages = {
         length = 4.0,
         width = 6.6,
         heading = 250,
-        minZ=29.68,
-        maxZ=33.68,
-        debugPz = false,
+        minZ= 29.68,
+        maxZ= 33.68,
+        debugPz = true,
         showBlip = true
     },
 }
@@ -216,41 +216,76 @@ HouseGarages = {}
 GangGarages = {
     ["ballas"] = {
         label = "Ballas",
-        takeVehicle = vector3(98.50, -1954.49, 20.84),
-        spawnPoint = vector4(98.50, -1954.49, 20.75, 335.73),
-        putVehicle = vector3(94.75, -1959.93, 20.84),
-        job = "ballas"
+        takeVehicle = vector3(91.68, -1964.48, 20.8),
+        spawnPoint = vector4(92.1520, -1964.0277, 19.9792, 320.8878),
+        putVehicle = vector3(91.68, -1964.48, 20.8),
+        job = "ballas",
+        pz = vector3(91.68, -1964.48, 20.8),
+        length = 3.8,
+        width = 7.0,
+        heading = 231,
+        minZ= 19.4,
+        maxZ= 21.8,
+        debugPz = true
     },
     ["families"] = {
         label = "La Familia",
-        takeVehicle = vector3(-811.65, 187.49, 72.48),
-        spawnPoint = vector4(-818.43, 184.97, 72.28, 107.85),
-        putVehicle = vector3(-811.65, 187.49, 72.48),
-        job = "families"
+        takeVehicle = vector3(-811.76, 187.34, 72.12),
+        spawnPoint = vector4(-812.2695, 187.1921, 72.0348, 111.7813),
+        putVehicle = vector3(-811.76, 187.34, 72.12),
+        job = "families",
+        pz = vector3(-811.76, 187.34, 72.12),
+        length = 3.8,
+        width = 6.8,
+        heading = 21,
+        minZ= 70.92,
+        maxZ= 73.52,
+        debugPz = true
     },
     ["lostmc"] = {
         label = "Lost MC",
-        takeVehicle = vector3(957.25, -129.63, 74.39),
-        spawnPoint = vector4(957.25, -129.63, 74.39, 199.21),
-        putVehicle = vector3(950.47, -122.05, 74.36),
-        job = "lostmc"
+        takeVehicle = vector3(957.16, -129.07, 73.94),
+        spawnPoint = vector4(957.1577, -129.0736, 73.9416, 240.5874),
+        putVehicle = vector3(957.16, -129.07, 73.94),
+        job = "lostmc",
+        pz = vector3(957.16, -129.07, 73.94),
+        length = 4.8,
+        width = 7.0,
+        heading = 330,
+        minZ= 72.94,
+        maxZ= 76.54,
+        debugPz = true
     },
     ["cartel"] = {
         label = "Cartel",
-        takeVehicle = vector3(1407.18, 1118.04, 114.84),
-        spawnPoint = vector4(1407.18, 1118.04, 114.84, 88.34),
-        putVehicle = vector3(1407.18, 1118.04, 114.84),
-        job = "cartel"
+        takeVehicle = vector3(1407.01, 1117.61, 114.4),
+        spawnPoint = vector4(1407.0082, 1117.6108, 114.4018, 89.9135),
+        putVehicle = vector3(1407.01, 1117.61, 114.4),
+        job = "cartel",
+        pz = vector3(1407.01, 1117.61, 114.4),
+        length = 3.8,
+        width = 6.8,
+        heading = 0,
+        minZ= 113.4,
+        maxZ= 116.8,
+        debugPz = true
     },
 }
 
 JobGarages = {
     ["police"] = {
         label = "Police",
-        takeVehicle = vector3(454.6, -1017.4, 28.4),
-        spawnPoint = vector4(438.4, -1018.3, 27.7, 90.0),
-        putVehicle = vector3(454.6, -1017.4, 28.4),
-        job = "police"
+        takeVehicle = vector3(445.96, -1025.31, 28.0),
+        spawnPoint = vector4(445.9897, -1024.6350, 28.1929, 5.2873),
+        putVehicle = vector3(445.96, -1025.31, 28.0),
+        job = "police",
+        pz = vector3(445.96, -1025.31, 28.0),
+        length = 4.8,
+        width = 7.0,
+        heading = 276,
+        minZ= 27.2,
+        maxZ= 31.2,
+        debugPz = true
     },
 }
 
