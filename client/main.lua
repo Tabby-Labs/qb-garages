@@ -946,15 +946,14 @@ end)
 
 CreateThread(function()
     while true do
-        sleep = 1000
-        if LocalPlayer.state['isLoggedIn'] then
+        local sleep = 1000
+        if LocalPlayer.state.isLoggedIn then
             local ped = PlayerPedId()
             local pos = GetEntityCoords(ped)
-            inGarageRange = false
             if HouseGarages and currentHouseGarage then
                 if hasGarageKey and HouseGarages[currentHouseGarage] and HouseGarages[currentHouseGarage].takeVehicle and HouseGarages[currentHouseGarage].takeVehicle.x then
                     local takehouseDist = #(pos - vector3(HouseGarages[currentHouseGarage].takeVehicle.x, HouseGarages[currentHouseGarage].takeVehicle.y, HouseGarages[currentHouseGarage].takeVehicle.z))
-                    if takehouseDist <= 15 then
+                    if takehouseDist <= 5.0 then
                         sleep = 5
                         inGarageRange = true
                         DrawMarker(2, HouseGarages[currentHouseGarage].takeVehicle.x, HouseGarages[currentHouseGarage].takeVehicle.y, HouseGarages[currentHouseGarage].takeVehicle.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3, 0.2, 0.15, 200, 0, 0, 222, false, false, false, true, false, false, false)
